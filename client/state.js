@@ -53,6 +53,8 @@ const state = {
         //setea el nombre dentro del objeto gameState del state
         const { gameState } = await this.getState();
         gameState.name = name;
+        console.log(process.env.NODE_ENV);
+        console.log(db_1.API_BASE_URL);
     },
     async signIn() {
         // crea un usuario en fireStore
