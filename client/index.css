@@ -1,0 +1,15 @@
+:root {
+  --titulo-home: #009048;
+  --titulo-instrucciones: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  background-image: url("./img/fondo.svg");
+  font-family: "Odibee Sans", cursive;
+}
