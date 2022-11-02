@@ -68,18 +68,18 @@ export function initManitos() {
         }
       }
 
-      @media (max-height: 700px) {
+      @media (max-height: 600px) {
         .piedra {
-          height: 150px;
-          width: 80px;
+          height: 80px;
+          width: 37px;
         }
         .papel {
-          height: 150px;
-          width: 80px;
+          height: 80px;
+          width: 37px;
         }
         .tijera {
-          height: 150px;
-          width: 80px;
+          height: 80px;
+          width: 37px;
         }
       }
 

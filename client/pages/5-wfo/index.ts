@@ -9,7 +9,7 @@ export function initWaitForOpp(container: Element) {
   style.innerHTML = `
   .titulo{
     color: var(--titulo-instrucciones);
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: 800;
     width: 300px;
     margin: 25% auto 20px auto;

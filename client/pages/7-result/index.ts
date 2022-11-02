@@ -20,7 +20,7 @@ export function initResult(container: Element) {
   style.innerHTML = `
   .titulo{
     color: var(--titulo-instrucciones);
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: 800;
     text-align: center;
     position: absolute;

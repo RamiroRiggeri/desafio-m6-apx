@@ -7,7 +7,7 @@ export function initHome(container: Element) {
 
   div.innerHTML = `
         <div class="inicio">
-          <h1 class="titulo">Piedra Papel ó Alfajor</h1>
+          <h1 class="titulo">Piedra Papel ó Tijera</h1>
           <div class="btn-new-game">
               <button-ppt>Nuevo Juego</button-ppt>
           </div>
@@ -41,7 +41,7 @@ export function initHome(container: Element) {
   }
   @media (max-height: 700px){
     .titulo {
-      font-size: 3em;
+      font-size: 1.8em;
     }
   }
 

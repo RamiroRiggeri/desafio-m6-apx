@@ -1,6 +1,5 @@
 import { API_BASE_URL, getDatabase, ref, onValue, app, rtdb, rtdbApp } from "./db";
 import { goTo } from "./router";
-import * as _ from "lodash";
 
 type Play = "stone" | "papper" | "sissors" | string;
 
@@ -54,16 +53,12 @@ const state = {
     //setea el nombre dentro del objeto gameState del state
     const { gameState } = await this.getState();
     gameState.name = name;
-    console.log(process.env.NODE_ENV);
-    console.log(API_BASE_URL);
   },
   async signIn() {
     // crea un usuario en fireStore
     const data = await this.getState();
     data.gameReady = false;
-    //obtiene current state
     await this.setSessionStatus(true);
-    //setea el session Status a true
 
     const rawUser = await fetch(`${API_BASE_URL}/auth`, {
       method: "post",

@@ -9,7 +9,7 @@ export function initInstructions(container: Element) {
   style.innerHTML = `
   .titulo{
     color: var(--titulo-instrucciones);
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-weight: 800;
     width: 300px;
     margin: 20px auto 20px auto;
@@ -25,7 +25,7 @@ export function initInstructions(container: Element) {
   }
   @media (max-height: 700px){
     .titulo {
-      font-size: 4em;
+      font-size: 1.8em;
     }
   }
   .boton{
