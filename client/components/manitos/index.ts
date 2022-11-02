@@ -118,12 +118,12 @@ export function initManitos() {
       }
       @media (max-height: 700px) {
         .cpu-manito{
-          height: 100px;
-          width: 200px;
+          height: 200px;
+          width: 150px;
         }
         .player-manito{
-          height: 100px;
-          width: 200px;
+          height: 200px;
+          width: 150px;
         }
       }
       `;
