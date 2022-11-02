@@ -68,18 +68,18 @@ export function initManitos() {
         }
       }
 
-      @media (max-height: 600px) {
+      @media (max-height: 700px) {
         .piedra {
-          height: 80px;
-          width: 37px;
+          height: 100px;
+          width: 50px;
         }
         .papel {
-          height: 80px;
-          width: 37px;
+          height: 100px;
+          width: 50px;
         }
         .tijera {
-          height: 80px;
-          width: 37px;
+          height: 100px;
+          width: 50px;
         }
       }
 
@@ -114,6 +114,16 @@ export function initManitos() {
         .player-manito{
           height: 280px;
           width: 180px;
+        }
+      }
+      @media (max-height: 700px) {
+        .cpu-manito{
+          height: 100px;
+          width: 200px;
+        }
+        .player-manito{
+          height: 100px;
+          width: 200px;
         }
       }
       `;

@@ -23,7 +23,7 @@ export function initGetNameNew(container: Element) {
   }
   @media (max-height: 700px){
     .titulo {
-      font-size: 1.8em;
+      font-size: 2em;
     }
   }
 
